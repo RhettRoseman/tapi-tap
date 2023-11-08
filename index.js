@@ -20,3 +20,6 @@ db.once("open", () => {
     });
 });
 
+mongoose.connect(MONGODB_URI, {useUnifiedTopology: true,}
+  );
+  
